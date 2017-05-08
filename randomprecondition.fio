@@ -7,7 +7,7 @@ randrepeat=0
 refill_buffers
 ioengine=libaio
 gtod_reduce=0
-filename=/dev/dfa
+filename=/dev/sdb
 bs=4K
 rw=randrw
 rwmixread=0

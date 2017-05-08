@@ -8,7 +8,7 @@ refill_buffers
 ioengine=libaio
 time_based
 gtod_reduce=0
-filename=/dev/dfa
+filename=/dev/sdb
 bs=2m
 rw=readwrite
 rwmixread=0
