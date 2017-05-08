@@ -23,8 +23,8 @@ def get_data(filename_test, filename_result):
         data_list_temp = []
         data_time = []
         data_over_list = []
-        filename_to_filter = os.path.join("results", filename_result)
-        file_data = open(filename_to_filter, mode='r')
+#        filename_to_filter = os.path.join("results", filename_result)
+        file_data = open(filename_result, mode='r')
         for item_file_data in file_data:
             if item_file_data != os.linesep:
                 data_data = item_change_devicename.split(',')[1]
